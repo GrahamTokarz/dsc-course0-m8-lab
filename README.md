@@ -145,10 +145,12 @@ Phase of flight is the second major driver of accident severity. The results rev
 │   ├── CleanedAviationData.csv
 │   └── USState_Codes.csv
 ├── images/
-│   ├── small_aircraft_violin.png
 │   ├── large_aircraft_bar.png
 │   ├── large_aircraft_strip.png
-│   └── destruction_rate.png
+│   ├── phase_of_flight.png
+│   ├── small_aircraft_safety_overview.png
+│   ├── small_aircraft_violin.png
+│   └── weather_conditions.png
 ├── Aviation_Accidents_Data_Cleaning.ipynb
 ├── Aviation_Accidents_Data_Analysis.ipynb
 └── README.md
