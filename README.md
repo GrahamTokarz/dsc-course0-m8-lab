@@ -15,9 +15,9 @@ The goal is to identify which aircraft types demonstrate **lower risk profiles**
 
 ### **Severe Injury Rate**
 
-[
-\text{Severe Injury Rate} = \frac{\text{Fatal + Serious Injuries}}{\text{Total Occupants}}
-]
+$$
+\text{Severe Injury Rate} = \frac{\text{Fatal + Serious}}{\text{Total Occupants}}
+$$
 
 * Measures the proportion of occupants experiencing high-severity outcomes
 * Primary safety metric for analysis
@@ -60,6 +60,9 @@ These columns were excluded due to:
 * Some makes show **consistently low severe injury rates with tight distributions**
 * Others exhibit **high variability**, indicating inconsistent safety performance
 
+![Small Aircraft Violin Plot](images/small_aircraft_safety_overview.png)
+
+
 **Insight:**
 Smaller aircraft safety varies significantly by manufacturer, suggesting design and usage patterns strongly influence outcomes.
 
@@ -84,7 +87,7 @@ The analysis supports the **Diamond DA 20 C1**, the **Piper PA-18A 150**, the **
 While large aircraft are generally safer in accidents, **model-level differences still matter**, particularly in extreme outcomes.
 
 **Recommended Aircraft:**
-The analysis supports the **McDonnel Douglass**, the **MD-88**, and the **Bombardier CL-600-2B19** as the standout safest options.
+The analysis supports the **McDonnel Douglass MD-88**, and the **Bombardier CL-600-2B19** as the standout safest options.
 
 ---
 
